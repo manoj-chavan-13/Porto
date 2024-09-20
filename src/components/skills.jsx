@@ -126,7 +126,7 @@ const SkillsShowcase = () => {
       <p className="text-lg text-gray-700 mb-6">
         Here's a quick overview of the technical skills and tools I use.
       </p>
-      <div className="flex flex-wrap justify-center w-3/4 mx-auto space-x-8 space-y-4">
+      <div className="flex flex-wrap justify-center w-3/4 mx-auto space-x-2 space-y-2 md:space-x-8 md:space-y-4">
         {skills.map((skill) => (
           <div
             key={skill.id}
