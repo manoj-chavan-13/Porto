@@ -111,7 +111,7 @@ const SkillsShowcase = () => {
   return (
     <div
       id="skills"
-      className="relative text-center mt-16 mb-16 p-8 rounded-2xl max-w-3xl mx-auto  "
+      className="relative text-center mt-16 mb-16 p-8 rounded-2xl max-w-3xl mx-auto overflow-hidden  "
     >
       {/* Decorative Blurred Divs */}
       <div className="absolute inset-0 bg-white opacity-20 blur-2xl rounded-full transform scale-150"></div>
