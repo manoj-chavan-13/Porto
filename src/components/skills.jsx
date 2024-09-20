@@ -111,7 +111,7 @@ const SkillsShowcase = () => {
   return (
     <div
       id="skills"
-      className="relative text-center mt-16 mb-16 p-8 rounded-2xl max-w-3xl mx-auto overflow-hidden  "
+      className="relative text-center mt-16 mb-16 p-8 rounded-2xl  mx-auto overflow-hidden  "
     >
       {/* Decorative Blurred Divs */}
       <div className="absolute inset-0 bg-white opacity-20 blur-2xl rounded-full transform scale-150"></div>
@@ -126,7 +126,7 @@ const SkillsShowcase = () => {
       <p className="text-lg text-gray-700 mb-6">
         Here's a quick overview of the technical skills and tools I use.
       </p>
-      <div className="flex flex-wrap justify-center space-x-8 space-y-4">
+      <div className="flex flex-wrap justify-center w-3/4 mx-auto space-x-8 space-y-4">
         {skills.map((skill) => (
           <div
             key={skill.id}
